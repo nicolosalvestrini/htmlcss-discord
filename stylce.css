@@ -141,8 +141,8 @@ a{
 }
 
 .p-div{
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 200px;
+    padding-top: 200px;
     width: 100%;
     display: flex;
 }
@@ -173,6 +173,7 @@ a{
     width: 480px;
     margin-top: 1.7;
     margin-left: 10rem;
+    margin-right: 10rem;
 }
 article{
     display: flex;
@@ -180,9 +181,23 @@ article{
 }
 
 .green-box{
-    background-color: #228b22;
-    width: 1200px;
-    height: 900px;
+    width: 1346px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+.stars{
+    width: 830px;
+}
+
+.img{
+    width: 1346px;
 }
 
 .box-rose-large{
@@ -196,6 +211,12 @@ article{
     width: 210px;
     background-color: #22b1a9;
     border: 1px dashed white;
+}
+
+.download-violet{
+    color: white;
+    background-color: #8ea1e2;
+    margin-top: 2rem;
 }
 
 /*/main rule*/
