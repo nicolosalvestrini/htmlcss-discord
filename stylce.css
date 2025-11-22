@@ -153,16 +153,26 @@ a{
 }
 
 .big-box{
-    background-color: #1e90ff;
     width: 720px;
-    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.title-size-small{
+    font-size: 4rem;
+}
+
+.p-size-small{
+    font-size: 1.9rem;
+    margin-top: 2rem;
 }
 
 .small-box{
-    background-color: #ffc0cb;
-    height: 490px;
     width: 480px;
-
+    margin-top: 1.7;
+    margin-left: 10rem;
 }
 article{
     display: flex;
