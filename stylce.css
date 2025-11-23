@@ -45,6 +45,22 @@ div{
    flex-basis: 25%; 
 }
 
+.wave {
+  height: 120px;
+  background-color: #d3d3d3;
+  -webkit-mask: url(img/wave.svg) no-repeat center / cover;
+  mask: url(img/wave.svg) no-repeat center / cover;
+}
+
+.wave-white{
+  height: 120px;
+  background-color: #d3d3d3;
+  -webkit-mask: url(img/wave.svg) no-repeat center / cover;
+  mask: url(img/wave.svg) no-repeat center / cover;
+  transform: rotate(180deg);
+}
+
+
 /*/box rule*/
 
 /*header rule*/
