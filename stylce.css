@@ -129,6 +129,10 @@ a{
 
 .bg-black{
     background-color: #23272a;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
 }
 
 /*/backround color*/
@@ -202,15 +206,14 @@ h3{
 
 .box-rose-large{
     width: 360px;
-    height: 580px;
-    background-color: #ef7f7f;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 6rem;
 }
 
 .box-azure-small{
-    height: 580px;
     width: 210px;
-    background-color: #22b1a9;
-    border: 1px dashed white;
 }
 
 .download-violet{
@@ -218,7 +221,34 @@ h3{
     background-color: #8ea1e2;
     margin-top: 2rem;
 }
+.language{
+    font-size: 1.9rem;
+    text-align: center;
+    color: white;
+}
 
+.language-image{
+    width: 1.9rem;
+    text-align: center;
+}
+
+.margin-bottom{
+    margin-bottom: 2rem;
+    color: #718ed9;
+}
+
+h4{
+    color: #718ed9;
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+}
+
+.footer-list{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    line-height: 1.5rem;
+}
 /*/main rule*/
 
 /*footer rule*/
@@ -233,18 +263,18 @@ footer{
 }
 
 .box-footer{
-    width: 1200px;
-    height: 80px;
+    width: 1300px;
     display: flex;
-    background-color: #7fffd4;
     align-items: center;
     justify-content: space-between;
 }
 
-.final-box{
-    background-color: #ffb6c1;
-    padding: 3px;
-    border: 1px dashed black;
+.final-button{
+    padding: 10px 20px;
+    color: white;
+    background-color: #90a1e2;
+    border-radius: 2rem;
+    font-size: 1.1rem;
 }
 
 /*/footer rule*/
